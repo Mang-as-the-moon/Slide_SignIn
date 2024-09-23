@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000A9ED52CA1DCA1004C2198 /* messaging__App_for_FunuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000A9ED42CA1DCA1004C2198 /* messaging__App_for_FunuApp.swift */; };
+		000A9ED72CA1DCA1004C2198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000A9ED62CA1DCA1004C2198 /* ContentView.swift */; };
+		000A9ED92CA1DCA3004C2198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000A9ED82CA1DCA3004C2198 /* Assets.xcassets */; };
+		000A9EDC2CA1DCA3004C2198 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000A9EDB2CA1DCA3004C2198 /* Preview Assets.xcassets */; };
+		000A9EE62CA1DCA4004C2198 /* messaging__App_for_FunuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000A9EE52CA1DCA4004C2198 /* messaging__App_for_FunuTests.swift */; };
+		000A9EF02CA1DCA4004C2198 /* messaging__App_for_FunuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000A9EEF2CA1DCA4004C2198 /* messaging__App_for_FunuUITests.swift */; };
+		000A9EF22CA1DCA4004C2198 /* messaging__App_for_FunuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000A9EF12CA1DCA4004C2198 /* messaging__App_for_FunuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000A9EE22CA1DCA4004C2198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000A9EC92CA1DCA1004C2198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000A9ED02CA1DCA1004C2198;
+			remoteInfo = "messaging  App for Funu";
+		};
+		000A9EEC2CA1DCA4004C2198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000A9EC92CA1DCA1004C2198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000A9ED02CA1DCA1004C2198;
+			remoteInfo = "messaging  App for Funu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000A9ED12CA1DCA1004C2198 /* messaging  App for Funu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "messaging  App for Funu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000A9ED42CA1DCA1004C2198 /* messaging__App_for_FunuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messaging__App_for_FunuApp.swift; sourceTree = "<group>"; };
+		000A9ED62CA1DCA1004C2198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000A9ED82CA1DCA3004C2198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000A9EDB2CA1DCA3004C2198 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		000A9EE12CA1DCA4004C2198 /* messaging  App for FunuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "messaging  App for FunuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000A9EE52CA1DCA4004C2198 /* messaging__App_for_FunuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messaging__App_for_FunuTests.swift; sourceTree = "<group>"; };
+		000A9EEB2CA1DCA4004C2198 /* messaging  App for FunuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "messaging  App for FunuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000A9EEF2CA1DCA4004C2198 /* messaging__App_for_FunuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messaging__App_for_FunuUITests.swift; sourceTree = "<group>"; };
+		000A9EF12CA1DCA4004C2198 /* messaging__App_for_FunuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messaging__App_for_FunuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000A9ECE2CA1DCA1004C2198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000A9EDE2CA1DCA4004C2198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000A9EE82CA1DCA4004C2198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000A9EC82CA1DCA1004C2198 = {
+			isa = PBXGroup;
+			children = (
+				000A9ED32CA1DCA1004C2198 /* messaging  App for Funu */,
+				000A9EE42CA1DCA4004C2198 /* messaging  App for FunuTests */,
+				000A9EEE2CA1DCA4004C2198 /* messaging  App for FunuUITests */,
+				000A9ED22CA1DCA1004C2198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000A9ED22CA1DCA1004C2198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000A9ED12CA1DCA1004C2198 /* messaging  App for Funu.app */,
+				000A9EE12CA1DCA4004C2198 /* messaging  App for FunuTests.xctest */,
+				000A9EEB2CA1DCA4004C2198 /* messaging  App for FunuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000A9ED32CA1DCA1004C2198 /* messaging  App for Funu */ = {
+			isa = PBXGroup;
+			children = (
+				000A9ED42CA1DCA1004C2198 /* messaging__App_for_FunuApp.swift */,
+				000A9ED62CA1DCA1004C2198 /* ContentView.swift */,
+				000A9ED82CA1DCA3004C2198 /* Assets.xcassets */,
+				000A9EDA2CA1DCA3004C2198 /* Preview Content */,
+			);
+			path = "messaging  App for Funu";
+			sourceTree = "<group>";
+		};
+		000A9EDA2CA1DCA3004C2198 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				000A9EDB2CA1DCA3004C2198 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		000A9EE42CA1DCA4004C2198 /* messaging  App for FunuTests */ = {
+			isa = PBXGroup;
+			children = (
+				000A9EE52CA1DCA4004C2198 /* messaging__App_for_FunuTests.swift */,
+			);
+			path = "messaging  App for FunuTests";
+			sourceTree = "<group>";
+		};
+		000A9EEE2CA1DCA4004C2198 /* messaging  App for FunuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				000A9EEF2CA1DCA4004C2198 /* messaging__App_for_FunuUITests.swift */,
+				000A9EF12CA1DCA4004C2198 /* messaging__App_for_FunuUITestsLaunchTests.swift */,
+			);
+			path = "messaging  App for FunuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000A9ED02CA1DCA1004C2198 /* messaging  App for Funu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000A9EF52CA1DCA4004C2198 /* Build configuration list for PBXNativeTarget "messaging  App for Funu" */;
+			buildPhases = (
+				000A9ECD2CA1DCA1004C2198 /* Sources */,
+				000A9ECE2CA1DCA1004C2198 /* Frameworks */,
+				000A9ECF2CA1DCA1004C2198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "messaging  App for Funu";
+			productName = "messaging  App for Funu";
+			productReference = 000A9ED12CA1DCA1004C2198 /* messaging  App for Funu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000A9EE02CA1DCA4004C2198 /* messaging  App for FunuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000A9EF82CA1DCA4004C2198 /* Build configuration list for PBXNativeTarget "messaging  App for FunuTests" */;
+			buildPhases = (
+				000A9EDD2CA1DCA4004C2198 /* Sources */,
+				000A9EDE2CA1DCA4004C2198 /* Frameworks */,
+				000A9EDF2CA1DCA4004C2198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000A9EE32CA1DCA4004C2198 /* PBXTargetDependency */,
+			);
+			name = "messaging  App for FunuTests";
+			productName = "messaging  App for FunuTests";
+			productReference = 000A9EE12CA1DCA4004C2198 /* messaging  App for FunuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000A9EEA2CA1DCA4004C2198 /* messaging  App for FunuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000A9EFB2CA1DCA4004C2198 /* Build configuration list for PBXNativeTarget "messaging  App for FunuUITests" */;
+			buildPhases = (
+				000A9EE72CA1DCA4004C2198 /* Sources */,
+				000A9EE82CA1DCA4004C2198 /* Frameworks */,
+				000A9EE92CA1DCA4004C2198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000A9EED2CA1DCA4004C2198 /* PBXTargetDependency */,
+			);
+			name = "messaging  App for FunuUITests";
+			productName = "messaging  App for FunuUITests";
+			productReference = 000A9EEB2CA1DCA4004C2198 /* messaging  App for FunuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000A9EC92CA1DCA1004C2198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					000A9ED02CA1DCA1004C2198 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					000A9EE02CA1DCA4004C2198 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 000A9ED02CA1DCA1004C2198;
+					};
+					000A9EEA2CA1DCA4004C2198 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 000A9ED02CA1DCA1004C2198;
+					};
+				};
+			};
+			buildConfigurationList = 000A9ECC2CA1DCA1004C2198 /* Build configuration list for PBXProject "messaging  App for Funu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000A9EC82CA1DCA1004C2198;
+			productRefGroup = 000A9ED22CA1DCA1004C2198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000A9ED02CA1DCA1004C2198 /* messaging  App for Funu */,
+				000A9EE02CA1DCA4004C2198 /* messaging  App for FunuTests */,
+				000A9EEA2CA1DCA4004C2198 /* messaging  App for FunuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000A9ECF2CA1DCA1004C2198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000A9EDC2CA1DCA3004C2198 /* Preview Assets.xcassets in Resources */,
+				000A9ED92CA1DCA3004C2198 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000A9EDF2CA1DCA4004C2198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000A9EE92CA1DCA4004C2198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000A9ECD2CA1DCA1004C2198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000A9ED72CA1DCA1004C2198 /* ContentView.swift in Sources */,
+				000A9ED52CA1DCA1004C2198 /* messaging__App_for_FunuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000A9EDD2CA1DCA4004C2198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000A9EE62CA1DCA4004C2198 /* messaging__App_for_FunuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000A9EE72CA1DCA4004C2198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000A9EF02CA1DCA4004C2198 /* messaging__App_for_FunuUITests.swift in Sources */,
+				000A9EF22CA1DCA4004C2198 /* messaging__App_for_FunuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000A9EE32CA1DCA4004C2198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000A9ED02CA1DCA1004C2198 /* messaging  App for Funu */;
+			targetProxy = 000A9EE22CA1DCA4004C2198 /* PBXContainerItemProxy */;
+		};
+		000A9EED2CA1DCA4004C2198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000A9ED02CA1DCA1004C2198 /* messaging  App for Funu */;
+			targetProxy = 000A9EEC2CA1DCA4004C2198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000A9EF32CA1DCA4004C2198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000A9EF42CA1DCA4004C2198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000A9EF62CA1DCA4004C2198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"messaging  App for Funu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-course.messaging--App-for-Funu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000A9EF72CA1DCA4004C2198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"messaging  App for Funu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-course.messaging--App-for-Funu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000A9EF92CA1DCA4004C2198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-course.messaging--App-for-FunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/messaging  App for Funu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/messaging  App for Funu";
+			};
+			name = Debug;
+		};
+		000A9EFA2CA1DCA4004C2198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-course.messaging--App-for-FunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/messaging  App for Funu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/messaging  App for Funu";
+			};
+			name = Release;
+		};
+		000A9EFC2CA1DCA4004C2198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-course.messaging--App-for-FunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "messaging  App for Funu";
+			};
+			name = Debug;
+		};
+		000A9EFD2CA1DCA4004C2198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-course.messaging--App-for-FunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "messaging  App for Funu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000A9ECC2CA1DCA1004C2198 /* Build configuration list for PBXProject "messaging  App for Funu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000A9EF32CA1DCA4004C2198 /* Debug */,
+				000A9EF42CA1DCA4004C2198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000A9EF52CA1DCA4004C2198 /* Build configuration list for PBXNativeTarget "messaging  App for Funu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000A9EF62CA1DCA4004C2198 /* Debug */,
+				000A9EF72CA1DCA4004C2198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000A9EF82CA1DCA4004C2198 /* Build configuration list for PBXNativeTarget "messaging  App for FunuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000A9EF92CA1DCA4004C2198 /* Debug */,
+				000A9EFA2CA1DCA4004C2198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000A9EFB2CA1DCA4004C2198 /* Build configuration list for PBXNativeTarget "messaging  App for FunuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000A9EFC2CA1DCA4004C2198 /* Debug */,
+				000A9EFD2CA1DCA4004C2198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000A9EC92CA1DCA1004C2198 /* Project object */;
+}
